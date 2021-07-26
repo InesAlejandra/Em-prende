@@ -1,4 +1,4 @@
-#This file must be copied to /
+##This file must be copied to /
 from flask import Flask, jsonify, request, render_template, abort
 # from Src.utils import ClassificationModelBuilder_short # Uncomment only if you want to re-train your model
 from Src.api.predict import predict_api
