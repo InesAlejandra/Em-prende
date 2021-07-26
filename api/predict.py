@@ -37,6 +37,7 @@ def apicall():
         # Before we make any prediction, let's pre-process first.
         data_preparation = DataPreparation()
         test_df = data_preparation.preprocess(test_df)
+        test_df.head(10)
         print(f'After pre-process test df — \n {test_df}')
         predictions = loaded_model.predict(test_df)
 
