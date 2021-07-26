@@ -1,5 +1,6 @@
 #This file should be at /Src/utils/
 # Library Import
+import sys
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, BaggingClassifier, ExtraTreesClassifier, GradientBoostingClassifier, VotingClassifier
@@ -11,8 +12,9 @@ from sklearn.metrics import f1_score, accuracy_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.neighbors import KNeighborsClassifier
 import dill as pickle
+sys.path.insert(0, '/content/Src/utils/')
 import DataPreparation
-DataPreparation import DataPreparation 
+from DataPreparation import DataPreparation 
 
 # Ignoring all warnings
 import warnings
