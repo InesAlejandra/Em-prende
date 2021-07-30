@@ -7,7 +7,7 @@ entradas = []
 
 c = st.beta_columns([2,2])
 #c[0].title("Em-prende!!")
-c[1].image(img,width = 220)
+c[1].image(img,width = 210)
 
 st.header("¿Quieres averiguar como les va a otros negocios en tu mercado?")
 
