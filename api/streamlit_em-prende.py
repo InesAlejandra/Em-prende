@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 
-img = Image.open(r"logo.png")
+img = Image.open(r"api/logo.png")
 entradas = []
 
 c = st.beta_columns([2,2])
