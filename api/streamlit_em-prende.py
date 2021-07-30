@@ -73,7 +73,7 @@ neg_C = ("","Elaboración de productos alimenticios",
         "Fabricación de productos elaborados de metal, excepto maquinaria y equipo")
 
 #Código CIIU para el área C (tres números, solo se toma la primera actividad (grupo) de cada division por motivos de test.
-neg_C3 = (101,120,131,141,151,161,170,181,191,201,210,221,231,241,251)
+neg_C3 = (101,110,120,131,141,151,161,170,181,191,201,210,221,231,241,251)
 
 negocio = st.selectbox("Mi área principal de negocio es:",negocios)
 st.info(negocio)
