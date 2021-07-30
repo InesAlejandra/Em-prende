@@ -81,6 +81,8 @@ if negocio == negocios[3]:
     #C = st.selectbox("Industrias manufactureras",neg_C)
     pos_C = st.selectbox("Industrias manufactureras",opt,format_func = lambda x:neg_C[x])
     st.info(neg_C[pos_C])
+elif negocio != negocios[3]:
+    st.write("Aun en construcción")
     
 # Prediccion
 if st.button("Emprende"):
