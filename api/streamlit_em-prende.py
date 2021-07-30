@@ -90,6 +90,7 @@ elif negocio != negocios[3]:
 # Prediccion
 if st.button("Emprende"):
     st.balloons()
+    pos_neg_C3 = 0
         
 pos_neg_C3 = pos_C + 1
 example_set = (neg_C3[pos_neg_C3],tmn)
