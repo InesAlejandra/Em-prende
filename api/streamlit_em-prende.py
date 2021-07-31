@@ -4,7 +4,7 @@ import pandas as pd
 
 img = Image.open(r"api/logo.png")
 entradas = []
-global pos_C = 0
+global pos_C
 c = st.beta_columns([2,2])
 c[1].write("En el mundo de hoy es muy importante conocer nuestro mercado, Em-prende reune esa información y la analiza por ti.")
 c[0].image(img,width = 250)
