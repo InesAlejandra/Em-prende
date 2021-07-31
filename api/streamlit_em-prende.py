@@ -4,7 +4,7 @@ import pandas as pd
 
 img = Image.open(r"api/logo.png")
 entradas = []
-global pos_C
+
 c = st.beta_columns([2,2])
 c[1].write("En el mundo de hoy es muy importante conocer nuestro mercado, Em-prende reune esa información y la analiza por ti.")
 c[0].image(img,width = 250)
@@ -83,6 +83,9 @@ if negocio == negocios[3]:
     #C = st.selectbox("Industrias manufactureras",neg_C)
     pos_C = st.selectbox("Industrias manufactureras",opt,format_func = lambda x:neg_C[x])
     st.info(neg_C[pos_C])
+    pos_neg_C3 = pos_C - 1
+    example_set = (neg_C3[pos_neg_C3],tmn)
+    st.info(example_set)
 elif negocio != negocios[3]:
     st.write("Aun en construcción")
     
@@ -91,6 +94,4 @@ if st.button("Emprende"):
     st.balloons()
     #pos_neg_C3 = 0
         
-pos_neg_C3 = pos_C - 1
-example_set = (neg_C3[pos_neg_C3],tmn)
-st.info(example_set)
+
