@@ -85,7 +85,7 @@ if negocio == negocios[3]:
     st.info(neg_C[pos_C])
     pos_neg_C3 = pos_C - 1
     example_set = (neg_C3[pos_neg_C3],tmn)
-    st.info(example_set)
+#    st.info(example_set)
 elif negocio != negocios[3]:
     st.write("Aun en construcción")
     
@@ -93,5 +93,6 @@ elif negocio != negocios[3]:
 if st.button("Emprende"):
     st.balloons()
     #pos_neg_C3 = 0
+    st.success(example_set)
         
 
